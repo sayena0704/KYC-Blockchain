@@ -1,0 +1,48 @@
+.bankinfo-container {
+  display: flex;
+  height: 100vh; /* Take complete height */
+  overflow: hidden;
+}
+
+.right-content {
+  width: 80%; /* Take 70% of total width */
+  height: 100%; /* Take complete height */
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  overflow-y: hidden;
+  align-items: center; /* Center the content vertically */
+  flex: 1;
+  padding: 20px;
+}
+
+.bank-info {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.bank-info h2 {
+  margin-bottom: 10px;
+}
+
+.bank-info p {
+  margin: 5px 0;
+}
+
+.right-content button {
+  padding: 10px 15px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.right-content button:hover {
+  background-color: #0056b3;
+}
+.tp h2 {
+  text-align: center;
+}
